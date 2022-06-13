@@ -1,0 +1,196 @@
+C:\Users\431\source\repos\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.csproj.AssemblyReference.cache
+C:\Users\431\source\repos\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.csproj.SuggestedBindingRedirects.cache
+C:\Users\431\source\repos\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia.Frm_MultiSelect.resources
+C:\Users\431\source\repos\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia.Frm_Principal.resources
+C:\Users\431\source\repos\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.Properties.Resources.resources
+C:\Users\431\source\repos\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia.Frm_loading.resources
+C:\Users\431\source\repos\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia.Login.resources
+C:\Users\431\source\repos\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia.Frm_Configuração.resources
+C:\Users\431\source\repos\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia.Login.pt-BR.resources
+C:\Users\431\source\repos\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.csproj.GenerateResource.cache
+C:\Users\431\source\repos\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.csproj.CoreCompileInputs.cache
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\ProgFormularioEngenharia2.exe.config
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\ProgFormularioEngenharia2.exe
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\ProgFormularioEngenharia2.pdb
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\pt-BR\ProgFormularioEngenharia2.resources.dll
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\EntityFramework.dll
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\GMap.NET.Core.dll
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\Npgsql.dll
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\Properties.Resources.Designer.cs.dll
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.Buffers.dll
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.Collections.Immutable.dll
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.Data.SqlClient.dll
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.Data.SQLite.dll
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.Memory.dll
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.Text.Json.dll
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.Threading.Channels.dll
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.ValueTuple.dll
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\EntityFramework.xml
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\Npgsql.xml
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.Buffers.xml
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.Collections.Immutable.xml
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.Data.SqlClient.xml
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.Data.SQLite.xml
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.Memory.xml
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.Text.Json.xml
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.Threading.Channels.xml
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\431\source\repos\ProgFormularioEngenharia2\bin\Debug\System.ValueTuple.xml
+C:\Users\431\source\repos\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.sondagem.Frm_Fotos.resources
+C:\Users\431\source\repos\ProgFormularioEngenharia2\obj\Debug\pt-BR\ProgFormularioEngenharia2.resources.dll
+C:\Users\431\source\repos\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.csproj.CopyComplete
+C:\Users\431\source\repos\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.exe
+C:\Users\431\source\repos\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.pdb
+F:\ProgFormularioEngenharia2\bin\Debug\EntityFramework.dll
+F:\ProgFormularioEngenharia2\bin\Debug\EntityFramework.SqlServer.dll
+F:\ProgFormularioEngenharia2\bin\Debug\GMap.NET.Core.dll
+F:\ProgFormularioEngenharia2\bin\Debug\GMap.NET.WindowsForms.dll
+F:\ProgFormularioEngenharia2\bin\Debug\GMap.NET.WindowsPresentation.dll
+F:\ProgFormularioEngenharia2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+F:\ProgFormularioEngenharia2\bin\Debug\Microsoft.Bcl.HashCode.dll
+F:\ProgFormularioEngenharia2\bin\Debug\Newtonsoft.Json.dll
+F:\ProgFormularioEngenharia2\bin\Debug\Npgsql.dll
+F:\ProgFormularioEngenharia2\bin\Debug\System.Buffers.dll
+F:\ProgFormularioEngenharia2\bin\Debug\System.Collections.Immutable.dll
+F:\ProgFormularioEngenharia2\bin\Debug\System.Data.SqlClient.dll
+F:\ProgFormularioEngenharia2\bin\Debug\System.Data.SQLite.dll
+F:\ProgFormularioEngenharia2\bin\Debug\System.Data.SQLite.EF6.dll
+F:\ProgFormularioEngenharia2\bin\Debug\System.Data.SQLite.Linq.dll
+F:\ProgFormularioEngenharia2\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+F:\ProgFormularioEngenharia2\bin\Debug\System.Memory.dll
+F:\ProgFormularioEngenharia2\bin\Debug\System.Numerics.Vectors.dll
+F:\ProgFormularioEngenharia2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\ProgFormularioEngenharia2\bin\Debug\System.Security.Principal.Windows.dll
+F:\ProgFormularioEngenharia2\bin\Debug\System.Text.Encodings.Web.dll
+F:\ProgFormularioEngenharia2\bin\Debug\System.Text.Json.dll
+F:\ProgFormularioEngenharia2\bin\Debug\System.Threading.Channels.dll
+F:\ProgFormularioEngenharia2\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\ProgFormularioEngenharia2\bin\Debug\System.ValueTuple.dll
+F:\ProgFormularioEngenharia2\bin\Debug\EntityFramework.xml
+F:\ProgFormularioEngenharia2\bin\Debug\EntityFramework.SqlServer.xml
+F:\ProgFormularioEngenharia2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+F:\ProgFormularioEngenharia2\bin\Debug\Microsoft.Bcl.HashCode.xml
+F:\ProgFormularioEngenharia2\bin\Debug\Newtonsoft.Json.xml
+F:\ProgFormularioEngenharia2\bin\Debug\Npgsql.xml
+F:\ProgFormularioEngenharia2\bin\Debug\System.Buffers.xml
+F:\ProgFormularioEngenharia2\bin\Debug\System.Collections.Immutable.xml
+F:\ProgFormularioEngenharia2\bin\Debug\System.Data.SqlClient.xml
+F:\ProgFormularioEngenharia2\bin\Debug\System.Data.SQLite.xml
+F:\ProgFormularioEngenharia2\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+F:\ProgFormularioEngenharia2\bin\Debug\System.Memory.xml
+F:\ProgFormularioEngenharia2\bin\Debug\System.Numerics.Vectors.xml
+F:\ProgFormularioEngenharia2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\ProgFormularioEngenharia2\bin\Debug\System.Security.Principal.Windows.xml
+F:\ProgFormularioEngenharia2\bin\Debug\System.Text.Encodings.Web.xml
+F:\ProgFormularioEngenharia2\bin\Debug\System.Text.Json.xml
+F:\ProgFormularioEngenharia2\bin\Debug\System.Threading.Channels.xml
+F:\ProgFormularioEngenharia2\bin\Debug\System.Threading.Tasks.Extensions.xml
+F:\ProgFormularioEngenharia2\bin\Debug\System.ValueTuple.xml
+F:\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.csproj.AssemblyReference.cache
+F:\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.csproj.SuggestedBindingRedirects.cache
+F:\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.Frm_MultiSelect.resources
+F:\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.Frm_Principal.resources
+F:\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.Properties.Resources.resources
+F:\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.sondagem.Frm_Fotos.resources
+F:\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.Frm_loading.resources
+F:\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.Login.resources
+F:\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.Frm_Configuração.resources
+F:\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.Login.pt-BR.resources
+F:\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.csproj.GenerateResource.cache
+F:\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.csproj.CoreCompileInputs.cache
+F:\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.csproj.CopyComplete
+F:\ProgFormularioEngenharia2\bin\Debug\Esteio Sondagem.exe.config
+F:\ProgFormularioEngenharia2\bin\Debug\Esteio Sondagem.exe
+F:\ProgFormularioEngenharia2\bin\Debug\Esteio Sondagem.pdb
+F:\ProgFormularioEngenharia2\bin\Debug\pt-BR\Esteio Sondagem.resources.dll
+F:\ProgFormularioEngenharia2\obj\Debug\pt-BR\Esteio Sondagem.resources.dll
+F:\ProgFormularioEngenharia2\obj\Debug\Esteio Sondagem.exe
+F:\ProgFormularioEngenharia2\obj\Debug\Esteio Sondagem.pdb
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\Esteio Sondagem.exe.config
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\Esteio Sondagem.exe
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\Esteio Sondagem.pdb
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\pt-BR\Esteio Sondagem.resources.dll
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\EntityFramework.dll
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\EntityFramework.SqlServer.dll
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\GMap.NET.Core.dll
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\GMap.NET.WindowsForms.dll
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\GMap.NET.WindowsPresentation.dll
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\Microsoft.Bcl.HashCode.dll
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\Newtonsoft.Json.dll
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\Npgsql.dll
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.Buffers.dll
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.Collections.Immutable.dll
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.Data.SqlClient.dll
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.Data.SQLite.dll
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.Data.SQLite.EF6.dll
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.Data.SQLite.Linq.dll
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.Memory.dll
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.Numerics.Vectors.dll
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.Security.Principal.Windows.dll
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.Text.Encodings.Web.dll
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.Text.Json.dll
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.Threading.Channels.dll
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.ValueTuple.dll
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\EntityFramework.xml
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\EntityFramework.SqlServer.xml
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\Microsoft.Bcl.HashCode.xml
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\Newtonsoft.Json.xml
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\Npgsql.xml
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.Buffers.xml
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.Collections.Immutable.xml
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.Data.SqlClient.xml
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.Data.SQLite.xml
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.Memory.xml
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.Numerics.Vectors.xml
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.Security.Principal.Windows.xml
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.Text.Encodings.Web.xml
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.Text.Json.xml
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.Threading.Channels.xml
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.Threading.Tasks.Extensions.xml
+F:\Programas Criados\ProgFormularioEngenharia2\bin\Debug\System.ValueTuple.xml
+F:\Programas Criados\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.csproj.AssemblyReference.cache
+F:\Programas Criados\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.csproj.SuggestedBindingRedirects.cache
+F:\Programas Criados\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.sondagem.Frm_Fotos.resources
+F:\Programas Criados\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.Frm_MultiSelect.resources
+F:\Programas Criados\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.Frm_Principal.resources
+F:\Programas Criados\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.Properties.Resources.resources
+F:\Programas Criados\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.Frm_loading.resources
+F:\Programas Criados\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.Login.resources
+F:\Programas Criados\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.Frm_Configuração.resources
+F:\Programas Criados\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.Login.pt-BR.resources
+F:\Programas Criados\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.csproj.GenerateResource.cache
+F:\Programas Criados\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.csproj.CoreCompileInputs.cache
+F:\Programas Criados\ProgFormularioEngenharia2\obj\Debug\pt-BR\Esteio Sondagem.resources.dll
+F:\Programas Criados\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.csproj.CopyComplete
+F:\Programas Criados\ProgFormularioEngenharia2\obj\Debug\Esteio Sondagem.exe
+F:\Programas Criados\ProgFormularioEngenharia2\obj\Debug\Esteio Sondagem.pdb
