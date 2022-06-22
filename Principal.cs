@@ -799,7 +799,16 @@ namespace ProgFormularioEngenharia2
                             dgv_sondagem.Rows[i].Cells[3].Value.ToString(),     //Longitude
                             dgv_sondagem.Rows[i].Cells[2].Value.ToString(),     //Latitude
                             dgv_sondagem.Rows[i].Cells[20].Value.ToString(),    //Nome Foto
-                            dgv_sondagem.Rows[i].Cells[22].Value.ToString()     //regional
+                            dgv_sondagem.Rows[i].Cells[22].Value.ToString(),    //regional
+                            dgv_sondagem.Rows[i].Cells[10].Value.ToString(),    //Camada 01
+                            dgv_sondagem.Rows[i].Cells[11].Value.ToString(),    //Camada 02
+                            dgv_sondagem.Rows[i].Cells[12].Value.ToString(),    //Camada 03
+                            dgv_sondagem.Rows[i].Cells[13].Value.ToString(),    //Camada 04
+                            dgv_sondagem.Rows[i].Cells[14].Value.ToString(),    //Espessura 01
+                            dgv_sondagem.Rows[i].Cells[15].Value.ToString(),    //Espessura 02
+                            dgv_sondagem.Rows[i].Cells[16].Value.ToString(),    //Espessura 03
+                            dgv_sondagem.Rows[i].Cells[17].Value.ToString(),     //Espessura 04
+                            dgv_sondagem.Rows[i].Cells[5].Value.ToString()
                             );
                     }
 

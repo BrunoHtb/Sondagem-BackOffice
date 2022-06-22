@@ -17,15 +17,22 @@ namespace ProgFormularioEngenharia2.sondagemClasses
             this.pathSavePhoto = pathSavePhoto;
         }
 
-        public void geraRelatorioWord(string caminhoWordSalva, string lote, string poco, string rodovia, string trecho, string longitude, string latitude, string nomeFoto, string regional)
+        public void geraRelatorioWord(string caminhoWordSalva, string lote, string poco, string rodovia, string trecho, string longitude, string latitude, string nomeFoto, string regional, string camada1, string camada2, string camada3, string camada4, string espessura1, string espessura2, string espessura3, string espessura4, string Km)
         {
-            Console.WriteLine("Regional: " + regional);
             object missing = System.Reflection.Missing.Value;
             var wordApp = new Microsoft.Office.Interop.Word.Application();
             wordApp.Visible = false;
-
-            //CAMINHO QUE ESTÁ O MODLEO DO WORD
             var wordDoc = wordApp.Documents.Open(caminhoWordSalva + "PRODUTO.docx", ReadOnly: false);
+            if (lote == "Lote 01")
+            {
+                //CAMINHO QUE ESTÁ O MODLEO DO WORD
+                wordDoc = wordApp.Documents.Open(caminhoWordSalva + "PRODUTO.docx", ReadOnly: false);
+            }
+            else
+            {
+                //CAMINHO QUE ESTÁ O MODLEO DO WORD
+                wordDoc = wordApp.Documents.Open(caminhoWordSalva + "PRODUTO_1.docx", ReadOnly: false);
+            }
 
             ImportarFotos img = new ImportarFotos(pathSavePhoto);
             List<string> nomeFotos = img.viewFoto(nomeFoto);
@@ -210,6 +217,10 @@ namespace ProgFormularioEngenharia2.sondagemClasses
             fnd.Replacement.Text = trecho;
             fnd.Execute(Replace: Microsoft.Office.Interop.Word.WdReplace.wdReplaceAll);
 
+            fnd.Text = "cel_Km";
+            fnd.Replacement.Text = Km;
+            fnd.Execute(Replace: Microsoft.Office.Interop.Word.WdReplace.wdReplaceAll);
+
             fnd.Text = "cel_Longitude";
             fnd.Replacement.Text = longitude;
             fnd.Execute(Replace: Microsoft.Office.Interop.Word.WdReplace.wdReplaceAll);
@@ -218,8 +229,43 @@ namespace ProgFormularioEngenharia2.sondagemClasses
             fnd.Replacement.Text = latitude;
             fnd.Execute(Replace: Microsoft.Office.Interop.Word.WdReplace.wdReplaceAll);
 
-            fnd.Text = "cel_Regional";
-            fnd.Replacement.Text = regional;
+            if(regional != "null")
+            {
+                fnd.Text = "cel_Regional";
+                fnd.Replacement.Text = regional;
+                fnd.Execute(Replace: Microsoft.Office.Interop.Word.WdReplace.wdReplaceAll);
+            }
+
+            fnd.Text = "cel_Camada1";
+            fnd.Replacement.Text = camada1;
+            fnd.Execute(Replace: Microsoft.Office.Interop.Word.WdReplace.wdReplaceAll);
+
+            fnd.Text = "cel_Camada2";
+            fnd.Replacement.Text = camada2;
+            fnd.Execute(Replace: Microsoft.Office.Interop.Word.WdReplace.wdReplaceAll);
+
+            fnd.Text = "cel_Camada3";
+            fnd.Replacement.Text = camada3;
+            fnd.Execute(Replace: Microsoft.Office.Interop.Word.WdReplace.wdReplaceAll);
+
+            fnd.Text = "cel_Camada4";
+            fnd.Replacement.Text = camada4;
+            fnd.Execute(Replace: Microsoft.Office.Interop.Word.WdReplace.wdReplaceAll);
+
+            fnd.Text = "cel_Espessura1";
+            fnd.Replacement.Text = espessura1;
+            fnd.Execute(Replace: Microsoft.Office.Interop.Word.WdReplace.wdReplaceAll);
+
+            fnd.Text = "cel_Espessura2";
+            fnd.Replacement.Text = espessura2;
+            fnd.Execute(Replace: Microsoft.Office.Interop.Word.WdReplace.wdReplaceAll);
+
+            fnd.Text = "cel_Espessura3";
+            fnd.Replacement.Text = espessura3;
+            fnd.Execute(Replace: Microsoft.Office.Interop.Word.WdReplace.wdReplaceAll);
+
+            fnd.Text = "cel_Espessura4";
+            fnd.Replacement.Text = espessura4;
             fnd.Execute(Replace: Microsoft.Office.Interop.Word.WdReplace.wdReplaceAll);
 
             //Local que vai ser salvo e a extensão

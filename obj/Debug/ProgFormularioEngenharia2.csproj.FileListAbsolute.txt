@@ -194,3 +194,68 @@ F:\Programas Criados\ProgFormularioEngenharia2\obj\Debug\pt-BR\Esteio Sondagem.r
 F:\Programas Criados\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.csproj.CopyComplete
 F:\Programas Criados\ProgFormularioEngenharia2\obj\Debug\Esteio Sondagem.exe
 F:\Programas Criados\ProgFormularioEngenharia2\obj\Debug\Esteio Sondagem.pdb
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\Esteio Sondagem.exe.config
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\Esteio Sondagem.exe
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\Esteio Sondagem.pdb
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\pt-BR\Esteio Sondagem.resources.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\EntityFramework.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\EntityFramework.SqlServer.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\GMap.NET.Core.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\GMap.NET.WindowsForms.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\GMap.NET.WindowsPresentation.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\Microsoft.Bcl.HashCode.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\Newtonsoft.Json.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\Npgsql.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.Buffers.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.Collections.Immutable.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.Data.SqlClient.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.Data.SQLite.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.Data.SQLite.EF6.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.Data.SQLite.Linq.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.Memory.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.Numerics.Vectors.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.Security.Principal.Windows.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.Text.Encodings.Web.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.Text.Json.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.Threading.Channels.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.ValueTuple.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\EntityFramework.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\EntityFramework.SqlServer.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\Microsoft.Bcl.HashCode.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\Newtonsoft.Json.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\Npgsql.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.Buffers.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.Collections.Immutable.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.Data.SqlClient.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.Data.SQLite.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.Memory.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.Numerics.Vectors.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.Security.Principal.Windows.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.Text.Encodings.Web.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.Text.Json.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.Threading.Channels.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.Threading.Tasks.Extensions.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Debug\System.ValueTuple.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.csproj.AssemblyReference.cache
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.csproj.SuggestedBindingRedirects.cache
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.sondagem.Frm_Fotos.resources
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.Frm_MultiSelect.resources
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.Frm_Principal.resources
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.Properties.Resources.resources
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.Frm_loading.resources
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.Login.resources
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.Frm_Configuração.resources
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.Login.pt-BR.resources
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.csproj.GenerateResource.cache
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.csproj.CoreCompileInputs.cache
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Debug\pt-BR\Esteio Sondagem.resources.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Debug\ProgFormularioEngenharia2.csproj.CopyComplete
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Debug\Esteio Sondagem.exe
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Debug\Esteio Sondagem.pdb

@@ -128,3 +128,68 @@ F:\Programas Criados\ProgFormularioEngenharia2\obj\Release\pt-BR\Esteio Sondagem
 F:\Programas Criados\ProgFormularioEngenharia2\obj\Release\ProgFormularioEngenharia2.csproj.CopyComplete
 F:\Programas Criados\ProgFormularioEngenharia2\obj\Release\Esteio Sondagem.exe
 F:\Programas Criados\ProgFormularioEngenharia2\obj\Release\Esteio Sondagem.pdb
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\Esteio Sondagem.exe.config
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\Esteio Sondagem.exe
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\Esteio Sondagem.pdb
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\pt-BR\Esteio Sondagem.resources.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\EntityFramework.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\EntityFramework.SqlServer.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\GMap.NET.Core.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\GMap.NET.WindowsForms.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\GMap.NET.WindowsPresentation.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\Microsoft.Bcl.HashCode.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\Newtonsoft.Json.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\Npgsql.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.Buffers.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.Collections.Immutable.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.Data.SqlClient.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.Data.SQLite.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.Data.SQLite.EF6.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.Data.SQLite.Linq.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.Diagnostics.DiagnosticSource.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.Memory.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.Numerics.Vectors.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.Security.Principal.Windows.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.Text.Encodings.Web.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.Text.Json.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.Threading.Channels.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.Threading.Tasks.Extensions.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.ValueTuple.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\EntityFramework.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\EntityFramework.SqlServer.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\Microsoft.Bcl.HashCode.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\Newtonsoft.Json.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\Npgsql.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.Buffers.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.Collections.Immutable.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.Data.SqlClient.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.Data.SQLite.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.Diagnostics.DiagnosticSource.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.Memory.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.Numerics.Vectors.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.Security.Principal.Windows.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.Text.Encodings.Web.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.Text.Json.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.Threading.Channels.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.Threading.Tasks.Extensions.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\bin\Release\System.ValueTuple.xml
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Release\ProgFormularioEngenharia2.csproj.AssemblyReference.cache
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Release\ProgFormularioEngenharia2.csproj.SuggestedBindingRedirects.cache
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Release\ProgFormularioEngenharia2.sondagem.Frm_Fotos.resources
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Release\ProgFormularioEngenharia2.Frm_MultiSelect.resources
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Release\ProgFormularioEngenharia2.Frm_Principal.resources
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Release\ProgFormularioEngenharia2.Properties.Resources.resources
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Release\ProgFormularioEngenharia2.Frm_loading.resources
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Release\ProgFormularioEngenharia2.Login.resources
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Release\ProgFormularioEngenharia2.Frm_Configuração.resources
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Release\ProgFormularioEngenharia2.Login.pt-BR.resources
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Release\ProgFormularioEngenharia2.csproj.GenerateResource.cache
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Release\ProgFormularioEngenharia2.csproj.CoreCompileInputs.cache
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Release\pt-BR\Esteio Sondagem.resources.dll
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Release\ProgFormularioEngenharia2.csproj.CopyComplete
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Release\Esteio Sondagem.exe
+F:\Programas_Criados\ProgFormularioEngenharia2\obj\Release\Esteio Sondagem.pdb
