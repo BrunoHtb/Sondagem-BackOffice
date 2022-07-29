@@ -33,29 +33,6 @@ namespace ProgFormularioEngenharia2
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Principal));
             this.dgv_sondagem = new System.Windows.Forms.DataGridView();
-            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.coordX = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.coordY = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.rodovia = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.km = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.metro = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.trecho = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.lote = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.area = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.camada1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.camada2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.camada3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.camada4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.espessura1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.espessura2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.espessura3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.espessura4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.status = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.observacao = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.foto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.entrega = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.regional = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.btn_Editar = new System.Windows.Forms.Button();
             this.btn_Deletar = new System.Windows.Forms.Button();
@@ -166,6 +143,34 @@ namespace ProgFormularioEngenharia2
             this.btn_addNovaEntrega = new System.Windows.Forms.Button();
             this.txtB_entrega = new System.Windows.Forms.TextBox();
             this.pnl_dados = new System.Windows.Forms.Panel();
+            this.dataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dataNomeFotoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kMToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.coordX = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.coordY = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.rodovia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.km = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.metro = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.trecho = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lote = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.area = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.camada1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.camada2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.camada3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.camada4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.espessura1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.espessura2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.espessura3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.espessura4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.status = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.observacao = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.foto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.entrega = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.regional = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataCadastro = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.relátorioPDFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_sondagem)).BeginInit();
             this.grpB_planilha.SuspendLayout();
             this.grpB_mapa.SuspendLayout();
@@ -211,7 +216,8 @@ namespace ProgFormularioEngenharia2
             this.observacao,
             this.foto,
             this.entrega,
-            this.regional});
+            this.regional,
+            this.dataCadastro});
             this.dgv_sondagem.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dgv_sondagem.Location = new System.Drawing.Point(11, 38);
             this.dgv_sondagem.MultiSelect = false;
@@ -221,145 +227,6 @@ namespace ProgFormularioEngenharia2
             this.dgv_sondagem.TabIndex = 1;
             this.dgv_sondagem.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellClick);
             this.dgv_sondagem.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.dgv_sondagem_KeyPress);
-            // 
-            // id
-            // 
-            this.id.HeaderText = "Id";
-            this.id.Name = "id";
-            this.id.Visible = false;
-            this.id.Width = 41;
-            // 
-            // nome
-            // 
-            this.nome.HeaderText = "Nome";
-            this.nome.Name = "nome";
-            this.nome.Width = 60;
-            // 
-            // coordX
-            // 
-            this.coordX.HeaderText = "Latitude";
-            this.coordX.Name = "coordX";
-            this.coordX.Width = 70;
-            // 
-            // coordY
-            // 
-            this.coordY.HeaderText = "Longitude";
-            this.coordY.Name = "coordY";
-            this.coordY.Width = 79;
-            // 
-            // rodovia
-            // 
-            this.rodovia.HeaderText = "Rodovia";
-            this.rodovia.Name = "rodovia";
-            this.rodovia.Width = 72;
-            // 
-            // km
-            // 
-            this.km.HeaderText = "KM";
-            this.km.Name = "km";
-            this.km.Width = 48;
-            // 
-            // metro
-            // 
-            this.metro.HeaderText = "Metro";
-            this.metro.Name = "metro";
-            this.metro.Width = 59;
-            // 
-            // trecho
-            // 
-            this.trecho.HeaderText = "Trecho";
-            this.trecho.Name = "trecho";
-            this.trecho.Width = 66;
-            // 
-            // lote
-            // 
-            this.lote.HeaderText = "Lote";
-            this.lote.Name = "lote";
-            this.lote.Width = 53;
-            // 
-            // area
-            // 
-            this.area.HeaderText = "Area";
-            this.area.Name = "area";
-            this.area.Width = 54;
-            // 
-            // camada1
-            // 
-            this.camada1.HeaderText = "Camada 01";
-            this.camada1.Name = "camada1";
-            this.camada1.Width = 86;
-            // 
-            // camada2
-            // 
-            this.camada2.HeaderText = "Camada 02";
-            this.camada2.Name = "camada2";
-            this.camada2.Width = 86;
-            // 
-            // camada3
-            // 
-            this.camada3.HeaderText = "Camada 03";
-            this.camada3.Name = "camada3";
-            this.camada3.Width = 86;
-            // 
-            // camada4
-            // 
-            this.camada4.HeaderText = "Camada 04";
-            this.camada4.Name = "camada4";
-            this.camada4.Width = 86;
-            // 
-            // espessura1
-            // 
-            this.espessura1.HeaderText = "Espessura 1";
-            this.espessura1.Name = "espessura1";
-            this.espessura1.Width = 90;
-            // 
-            // espessura2
-            // 
-            this.espessura2.HeaderText = "Espessura 2";
-            this.espessura2.Name = "espessura2";
-            this.espessura2.Width = 90;
-            // 
-            // espessura3
-            // 
-            this.espessura3.HeaderText = "Espessura 3";
-            this.espessura3.Name = "espessura3";
-            this.espessura3.Width = 90;
-            // 
-            // espessura4
-            // 
-            this.espessura4.HeaderText = "Espessura 4";
-            this.espessura4.Name = "espessura4";
-            this.espessura4.Width = 90;
-            // 
-            // status
-            // 
-            this.status.HeaderText = "Status";
-            this.status.Name = "status";
-            this.status.Width = 62;
-            // 
-            // observacao
-            // 
-            this.observacao.HeaderText = "Observação";
-            this.observacao.Name = "observacao";
-            this.observacao.Width = 90;
-            // 
-            // foto
-            // 
-            this.foto.HeaderText = "NomeFoto";
-            this.foto.Name = "foto";
-            this.foto.Width = 81;
-            // 
-            // entrega
-            // 
-            this.entrega.HeaderText = "Entrega";
-            this.entrega.Name = "entrega";
-            this.entrega.Width = 69;
-            // 
-            // regional
-            // 
-            this.regional.HeaderText = "Regional";
-            this.regional.Name = "regional";
-            this.regional.Width = 74;
             // 
             // openFileDialog1
             // 
@@ -451,6 +318,7 @@ namespace ProgFormularioEngenharia2
             this.cmbB_entregaFiltro.Location = new System.Drawing.Point(321, 11);
             this.cmbB_entregaFiltro.Name = "cmbB_entregaFiltro";
             this.cmbB_entregaFiltro.Size = new System.Drawing.Size(136, 21);
+            this.cmbB_entregaFiltro.Sorted = true;
             this.cmbB_entregaFiltro.TabIndex = 8;
             // 
             // lbl_entregaFiltro
@@ -603,7 +471,10 @@ namespace ProgFormularioEngenharia2
             this.toolstrip_importarPanilha,
             this.toolstrip_organizar,
             this.toolStripSeparator1,
-            this.regionalToolStripMenuItem});
+            this.regionalToolStripMenuItem,
+            this.dataToolStripMenuItem,
+            this.dataNomeFotoToolStripMenuItem,
+            this.kMToolStripMenuItem});
             this.selecionarToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
             this.selecionarToolStripMenuItem.Name = "selecionarToolStripMenuItem";
             this.selecionarToolStripMenuItem.Size = new System.Drawing.Size(88, 20);
@@ -613,7 +484,7 @@ namespace ProgFormularioEngenharia2
             // 
             this.toolstrip_importarPanilha.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolstrip_importarPanilha.Name = "toolstrip_importarPanilha";
-            this.toolstrip_importarPanilha.Size = new System.Drawing.Size(168, 22);
+            this.toolstrip_importarPanilha.Size = new System.Drawing.Size(180, 22);
             this.toolstrip_importarPanilha.Text = "Importar Panilha";
             this.toolstrip_importarPanilha.Click += new System.EventHandler(this.importarPanilhaToolStripMenuItem_Click);
             // 
@@ -624,7 +495,7 @@ namespace ProgFormularioEngenharia2
             this.toolstrip_planilha});
             this.toolstrip_organizar.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolstrip_organizar.Name = "toolstrip_organizar";
-            this.toolstrip_organizar.Size = new System.Drawing.Size(168, 22);
+            this.toolstrip_organizar.Size = new System.Drawing.Size(180, 22);
             this.toolstrip_organizar.Text = "Organizar";
             // 
             // toolstrip_foto
@@ -644,12 +515,12 @@ namespace ProgFormularioEngenharia2
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(165, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
             // 
             // regionalToolStripMenuItem
             // 
             this.regionalToolStripMenuItem.Name = "regionalToolStripMenuItem";
-            this.regionalToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.regionalToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.regionalToolStripMenuItem.Text = "Regional";
             this.regionalToolStripMenuItem.Visible = false;
             this.regionalToolStripMenuItem.Click += new System.EventHandler(this.regionalToolStripMenuItem_Click);
@@ -677,7 +548,8 @@ namespace ProgFormularioEngenharia2
             this.toolstrip_relatorioParcial,
             this.toolstrip_relatorioCompleto,
             this.reToolStripMenuItem,
-            this.relátorioWORDToolStripMenuItem});
+            this.relátorioWORDToolStripMenuItem,
+            this.relátorioPDFToolStripMenuItem});
             this.toolstrip_relatorio.Enabled = false;
             this.toolstrip_relatorio.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
             this.toolstrip_relatorio.Name = "toolstrip_relatorio";
@@ -1482,6 +1354,180 @@ namespace ProgFormularioEngenharia2
             this.pnl_dados.Size = new System.Drawing.Size(490, 789);
             this.pnl_dados.TabIndex = 23;
             // 
+            // dataToolStripMenuItem
+            // 
+            this.dataToolStripMenuItem.Name = "dataToolStripMenuItem";
+            this.dataToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dataToolStripMenuItem.Text = "Data Planilha";
+            this.dataToolStripMenuItem.Visible = false;
+            this.dataToolStripMenuItem.Click += new System.EventHandler(this.dataToolStripMenuItem_Click);
+            // 
+            // dataNomeFotoToolStripMenuItem
+            // 
+            this.dataNomeFotoToolStripMenuItem.Name = "dataNomeFotoToolStripMenuItem";
+            this.dataNomeFotoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dataNomeFotoToolStripMenuItem.Text = "Data Nome Foto";
+            this.dataNomeFotoToolStripMenuItem.Visible = false;
+            this.dataNomeFotoToolStripMenuItem.Click += new System.EventHandler(this.dataNomeFotoToolStripMenuItem_Click);
+            // 
+            // kMToolStripMenuItem
+            // 
+            this.kMToolStripMenuItem.Name = "kMToolStripMenuItem";
+            this.kMToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.kMToolStripMenuItem.Text = "KM";
+            this.kMToolStripMenuItem.Click += new System.EventHandler(this.kMToolStripMenuItem_Click);
+            // 
+            // id
+            // 
+            this.id.HeaderText = "Id";
+            this.id.Name = "id";
+            this.id.Visible = false;
+            this.id.Width = 41;
+            // 
+            // nome
+            // 
+            this.nome.HeaderText = "Nome";
+            this.nome.Name = "nome";
+            this.nome.Width = 60;
+            // 
+            // coordX
+            // 
+            this.coordX.HeaderText = "Latitude";
+            this.coordX.Name = "coordX";
+            this.coordX.Width = 70;
+            // 
+            // coordY
+            // 
+            this.coordY.HeaderText = "Longitude";
+            this.coordY.Name = "coordY";
+            this.coordY.Width = 79;
+            // 
+            // rodovia
+            // 
+            this.rodovia.HeaderText = "Rodovia";
+            this.rodovia.Name = "rodovia";
+            this.rodovia.Width = 72;
+            // 
+            // km
+            // 
+            this.km.HeaderText = "KM";
+            this.km.Name = "km";
+            this.km.Width = 48;
+            // 
+            // metro
+            // 
+            this.metro.HeaderText = "Metro";
+            this.metro.Name = "metro";
+            this.metro.Width = 59;
+            // 
+            // trecho
+            // 
+            this.trecho.HeaderText = "Trecho";
+            this.trecho.Name = "trecho";
+            this.trecho.Width = 66;
+            // 
+            // lote
+            // 
+            this.lote.HeaderText = "Lote";
+            this.lote.Name = "lote";
+            this.lote.Width = 53;
+            // 
+            // area
+            // 
+            this.area.HeaderText = "Area";
+            this.area.Name = "area";
+            this.area.Width = 54;
+            // 
+            // camada1
+            // 
+            this.camada1.HeaderText = "Camada 01";
+            this.camada1.Name = "camada1";
+            this.camada1.Width = 86;
+            // 
+            // camada2
+            // 
+            this.camada2.HeaderText = "Camada 02";
+            this.camada2.Name = "camada2";
+            this.camada2.Width = 86;
+            // 
+            // camada3
+            // 
+            this.camada3.HeaderText = "Camada 03";
+            this.camada3.Name = "camada3";
+            this.camada3.Width = 86;
+            // 
+            // camada4
+            // 
+            this.camada4.HeaderText = "Camada 04";
+            this.camada4.Name = "camada4";
+            this.camada4.Width = 86;
+            // 
+            // espessura1
+            // 
+            this.espessura1.HeaderText = "Espessura 1";
+            this.espessura1.Name = "espessura1";
+            this.espessura1.Width = 90;
+            // 
+            // espessura2
+            // 
+            this.espessura2.HeaderText = "Espessura 2";
+            this.espessura2.Name = "espessura2";
+            this.espessura2.Width = 90;
+            // 
+            // espessura3
+            // 
+            this.espessura3.HeaderText = "Espessura 3";
+            this.espessura3.Name = "espessura3";
+            this.espessura3.Width = 90;
+            // 
+            // espessura4
+            // 
+            this.espessura4.HeaderText = "Espessura 4";
+            this.espessura4.Name = "espessura4";
+            this.espessura4.Width = 90;
+            // 
+            // status
+            // 
+            this.status.HeaderText = "Status";
+            this.status.Name = "status";
+            this.status.Width = 62;
+            // 
+            // observacao
+            // 
+            this.observacao.HeaderText = "Observação";
+            this.observacao.Name = "observacao";
+            this.observacao.Width = 90;
+            // 
+            // foto
+            // 
+            this.foto.HeaderText = "NomeFoto";
+            this.foto.Name = "foto";
+            this.foto.Width = 81;
+            // 
+            // entrega
+            // 
+            this.entrega.HeaderText = "Entrega";
+            this.entrega.Name = "entrega";
+            this.entrega.Width = 69;
+            // 
+            // regional
+            // 
+            this.regional.HeaderText = "Regional";
+            this.regional.Name = "regional";
+            this.regional.Width = 74;
+            // 
+            // dataCadastro
+            // 
+            this.dataCadastro.HeaderText = "Data Cadastro";
+            this.dataCadastro.Name = "dataCadastro";
+            // 
+            // relátorioPDFToolStripMenuItem
+            // 
+            this.relátorioPDFToolStripMenuItem.Name = "relátorioPDFToolStripMenuItem";
+            this.relátorioPDFToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.relátorioPDFToolStripMenuItem.Text = "Relátorio PDF";
+            this.relátorioPDFToolStripMenuItem.Click += new System.EventHandler(this.relátorioPDFToolStripMenuItem_Click);
+            // 
             // Frm_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -1642,6 +1688,9 @@ namespace ProgFormularioEngenharia2
         private Label lbl_regional;
         private ComboBox cmbB_regional;
         private ToolStripMenuItem regionalToolStripMenuItem;
+        private ToolStripMenuItem dataToolStripMenuItem;
+        private ToolStripMenuItem dataNomeFotoToolStripMenuItem;
+        private ToolStripMenuItem kMToolStripMenuItem;
         private DataGridViewTextBoxColumn id;
         private DataGridViewTextBoxColumn nome;
         private DataGridViewTextBoxColumn coordX;
@@ -1665,5 +1714,7 @@ namespace ProgFormularioEngenharia2
         private DataGridViewTextBoxColumn foto;
         private DataGridViewTextBoxColumn entrega;
         private DataGridViewTextBoxColumn regional;
+        private DataGridViewTextBoxColumn dataCadastro;
+        private ToolStripMenuItem relátorioPDFToolStripMenuItem;
     }
 }

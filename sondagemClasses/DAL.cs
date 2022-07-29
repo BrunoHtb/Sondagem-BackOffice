@@ -86,6 +86,39 @@ namespace ProgFormularioEngenharia2
                 conn.Close();
             }
         }
+        public void updateKmBD(string[] campo, string km, string metro, DAL DBConnection)
+        {
+            string cmdAtualiza = string.Format("UPDATE public.sondagemdado SET km='" + km + "', metro='" + metro + "' WHERE nome LIKE ('L01_" + campo[1] + "')");
+
+            using (var conn = new NpgsqlConnection(DBConnection.GET()))
+            {
+                Console.Out.WriteLine("Opening connection");
+                conn.Open();
+
+                using (NpgsqlCommand pgsqlcommand = new NpgsqlCommand(cmdAtualiza, conn))
+                {
+                    pgsqlcommand.ExecuteNonQuery();
+                }
+                conn.Close();
+            }
+        }
+
+        public void updateDataCadastroBD(string[] campo, string dataCadastro, DAL DBConnection)
+        {
+            string cmdAtualiza = string.Format("UPDATE public.sondagemdado SET data_cadastro='" + dataCadastro + "' WHERE nome LIKE ('" + campo[1] + "')");
+
+            using (var conn = new NpgsqlConnection(DBConnection.GET()))
+            {
+                Console.Out.WriteLine("Opening connection");
+                conn.Open();
+
+                using (NpgsqlCommand pgsqlcommand = new NpgsqlCommand(cmdAtualiza, conn))
+                {
+                    pgsqlcommand.ExecuteNonQuery();
+                }
+                conn.Close();
+            }
+        }
 
         //SAVA OS DADOS DA PLANILHA .CSV NO BD
         public void saveDatabase(string[] campo)

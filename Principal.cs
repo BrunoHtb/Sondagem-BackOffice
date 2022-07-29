@@ -341,7 +341,8 @@ namespace ProgFormularioEngenharia2
                         reader.GetString(12) + ";" + reader.GetString(13) + ";" +
                         reader.GetString(14) + ";" + reader.GetString(15) + ";" +
                         reader.GetString(16) + ";" + reader.GetString(17) + ";" +
-                        reader.GetString(18) + ";" + reader.GetString(19));
+                        reader.GetString(18) + ";" + reader.GetString(19) + ";" +
+                        reader.GetString(20));
                         campo = grid.Split(';');
 
                         nomeFoto = string.Format(reader.GetString(12));
@@ -369,8 +370,9 @@ namespace ProgFormularioEngenharia2
                             campo[32],  //Observação
                             nomeFoto,
                             campo[33],  //Entrega
-                            campo[34]   //regional
-                            //grid[12] até grid[21] são nome das fotos 
+                            campo[34],   //regional
+                            campo[35]   //Data cadastro
+                                        //grid[12] até grid[21] são nome das fotos 
                             );
 
                         if (cmbB_Lotes.FindStringExact(campo[11]) == -1)
@@ -429,7 +431,7 @@ namespace ProgFormularioEngenharia2
                 if (i != -1)
                 {
                     //Caso o usuário feche a janela
-                    if(frmFotos.closed == true)
+                    if (frmFotos.closed == true)
                     {
                         frmFotos.Dispose();
                         frmFotos = new Frm_Fotos();
@@ -474,12 +476,12 @@ namespace ProgFormularioEngenharia2
 
                         if (!Directory.Exists(Path.GetDirectoryName(Path.GetDirectoryName(file) + "\\Concluido\\")))
                         {
-                            System.IO.Directory.CreateDirectory(Path.GetDirectoryName(file) + "\\Concluido\\");   
+                            System.IO.Directory.CreateDirectory(Path.GetDirectoryName(file) + "\\Concluido\\");
                         }
                         csv.Close();
                         System.IO.File.Copy(file, (Path.GetDirectoryName(file) + "\\Concluido\\" + Path.GetFileName(file)));
                         System.IO.File.Delete(file);
-                    }  
+                    }
                 }
                 atualizaGrid();
                 ((IDisposable)DbConnection).Dispose();
@@ -586,7 +588,7 @@ namespace ProgFormularioEngenharia2
             }
             catch (Exception ex) { }
         }
-   
+
         public void concatenarNomeFoto()
         {
             //Nome Foto 1
@@ -682,7 +684,7 @@ namespace ProgFormularioEngenharia2
             btn_salvar_Click(sender, e);
         }
 
-        private void dgv_sondagem_KeyPress(object sender, KeyPressEventArgs e){}
+        private void dgv_sondagem_KeyPress(object sender, KeyPressEventArgs e) { }
 
         private void btn_addNovaEntrega_Click(object sender, EventArgs e)
         {
@@ -705,37 +707,37 @@ namespace ProgFormularioEngenharia2
 
         private void toolstrip_relatorioParcial_Click(object sender, EventArgs e)
         {
-        
+
             try
             {
                 Relatorio relatorio = new Relatorio(cmbB_Lotes.SelectedItem.ToString(), cmbB_entregaFiltro.SelectedItem.ToString(), localhost, caminhoFotoSalva);
                 relatorio.GerarRelatorioParcial();
                 relatorio = null;
             }
-            catch(Exception ex){}
-        
+            catch (Exception ex) { }
+
         }
 
         private void toolstrip_relatorioCompleto_Click(object sender, EventArgs e)
         {
-        
-            try 
+
+            try
             {
                 Relatorio relatorio = new Relatorio(cmbB_Lotes.SelectedItem.ToString(), cmbB_entregaFiltro.SelectedItem.ToString(), localhost, caminhoFotoSalva);
                 relatorio.GerarRelatorioCompleto();
                 relatorio = null;
             }
-            catch(Exception ex){ }
-        
+            catch (Exception ex) { }
+
         }
 
         private void reToolStripMenuItem_Click(object sender, EventArgs e)
         {
-        
+
             Relatorio relatorio = new Relatorio(cmbB_Lotes.SelectedItem.ToString(), cmbB_entregaFiltro.SelectedItem.ToString(), localhost, caminhoFotoSalva);
             relatorio.GerarRelatorioParcialSemFotos();
             relatorio = null;
-        
+
         }
 
         private void btn_multiSelect_Click_1(object sender, EventArgs e)
@@ -756,7 +758,7 @@ namespace ProgFormularioEngenharia2
                 id = Int32.Parse(dgv_sondagem.Rows[i].Cells[0].Value.ToString());
                 nome = dgv_sondagem.Rows[i].Cells[1].Value.ToString();
                 entrega = dgv_sondagem.Rows[i].Cells[21].Value.ToString();
-                    
+
                 frmMultiSelect.fill_Grid(id, nome, entrega);
             }
 
@@ -783,11 +785,11 @@ namespace ProgFormularioEngenharia2
                     /*Inicia o contador*/
                     if (load.firstTime == true)
                     {
-                        load.maxCount_load(dgv_sondagem.Rows.Count-1);
+                        load.maxCount_load(dgv_sondagem.Rows.Count - 1);
                         load.Show();
                     }
 
-                    for (int i = 0; i < dgv_sondagem.Rows.Count-1; i++)
+                    for (int i = 0; i < dgv_sondagem.Rows.Count - 1; i++)
                     {
                         load.loading();
                         relatorioWord.geraRelatorioWord(
@@ -808,15 +810,16 @@ namespace ProgFormularioEngenharia2
                             dgv_sondagem.Rows[i].Cells[15].Value.ToString(),    //Espessura 02
                             dgv_sondagem.Rows[i].Cells[16].Value.ToString(),    //Espessura 03
                             dgv_sondagem.Rows[i].Cells[17].Value.ToString(),     //Espessura 04
-                            dgv_sondagem.Rows[i].Cells[5].Value.ToString()
+                            dgv_sondagem.Rows[i].Cells[5].Value.ToString() + "," + dgv_sondagem.Rows[i].Cells[6].Value.ToString(), //KM,METROS
+                            "word",
+                            dgv_sondagem.Rows[i].Cells[23].Value.ToString() //Data Cadastro DiaMêsAno
                             );
                     }
-
                     load.btn_ok.Enabled = true;
                 }
 
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show("Erro: " + ex);
                 load.btn_ok.Enabled = true;
@@ -841,8 +844,8 @@ namespace ProgFormularioEngenharia2
 
                 if (ofd.ShowDialog() == DialogResult.OK)
                 {
-                    
-                    if(ofd.FileName.Split('\\')[ofd.FileName.Split('\\').Length-1] == "RegionalCamposGerais.csv")
+
+                    if (ofd.FileName.Split('\\')[ofd.FileName.Split('\\').Length - 1] == "RegionalCamposGerais.csv")
                     {
                         regional = "Regional Campos Gerais";
                     }
@@ -879,5 +882,240 @@ namespace ProgFormularioEngenharia2
             }
 
         }
+
+        private void dataToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                OpenFileDialog ofd = new OpenFileDialog();
+                DAL DbConnection = new DAL(localhost);
+                ofd.Multiselect = true;
+                ofd.Filter = " CSV |*.csv";
+                Utilidade planilhaMain = new Utilidade();
+                string dataDiaMesAno;
+                if (ofd.ShowDialog() == DialogResult.OK)
+                {
+                    foreach (string file in ofd.FileNames)
+                    {
+                        StreamReader csv = new StreamReader(file);
+                        while ((linha = csv.ReadLine()) != null)
+                        {
+                            campo = linha.Split(';');
+                            dataDiaMesAno = campo[42].Split('_')[0];
+                            //*-------------------  UPDATE DADOS NO BANCO  ------------------------------*
+                            DbConnection.updateDataCadastroBD(campo, dataDiaMesAno, DbConnection);
+                        }
+
+                        if (!Directory.Exists(Path.GetDirectoryName(Path.GetDirectoryName(file) + "\\Concluido\\")))
+                        {
+                            System.IO.Directory.CreateDirectory(Path.GetDirectoryName(file) + "\\Concluido\\");
+                        }
+                        csv.Close();
+                        System.IO.File.Copy(file, (Path.GetDirectoryName(file) + "\\Concluido\\" + Path.GetFileName(file)));
+                        System.IO.File.Delete(file);
+                    }
+                }
+                atualizaGrid();
+                ((IDisposable)DbConnection).Dispose();
+                ((IDisposable)ofd).Dispose();
+            }
+            catch (Exception ex)
+            {
+                //MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void dataNomeFotoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DAL DbConnection = new DAL(localhost);
+
+                //LIMPAR A PLANILHA
+                dgv_sondagem.Rows.Clear();
+                grid = "";
+
+                using (var conn = new NpgsqlConnection(DbConnection.GET()))
+                {
+                    Console.Out.WriteLine("Opening connection");
+                    conn.Open();
+
+                    var command = new NpgsqlCommand();
+                    string comando = "SELECT * FROM public.sondagemdado where CHAR_LENGTH(data_cadastro) < 7";
+                    command = new NpgsqlCommand(comando, conn);
+                    var reader = command.ExecuteReader();
+
+                    while (reader.Read())
+                    {
+                        grid = string.Format(
+                        reader.GetInt32(0).ToString() + ";" + reader.GetString(1) + ";" +
+                        reader.GetString(2) + ";" + reader.GetString(3) + ";" +
+                        reader.GetString(4) + ";" + reader.GetString(5) + ";" +
+                        reader.GetString(6) + ";" + reader.GetString(7) + ";" +
+                        reader.GetString(8) + ";" + reader.GetString(9) + ";" +
+                        reader.GetString(10) + ";" + reader.GetString(11) + ";" +
+                        reader.GetString(12) + ";" + reader.GetString(13) + ";" +
+                        reader.GetString(14) + ";" + reader.GetString(15) + ";" +
+                        reader.GetString(16) + ";" + reader.GetString(17) + ";" +
+                        reader.GetString(18) + ";" + reader.GetString(19) + ";"
+                        + reader.GetString(20));
+                        campo = grid.Split(';');
+
+                        nomeFoto = string.Format(reader.GetString(12));
+
+                        string nomeFoto1 = nomeFoto.Split(';')[0];
+                        string dataNomeFoto;
+
+                        //CASO NO NOME DA FOTO NÃO TIVER A DATA DE REGISTRO
+                        if (nomeFoto1.Split('_').Length < 6)
+                            dataNomeFoto = "99";
+                        else
+                            dataNomeFoto = nomeFoto1.Split('_')[5];
+
+
+                        dgv_sondagem.Rows.Add(
+                            campo[0], //ID
+                            campo[1], //Nome
+                            campo[5], //Latitude
+                            campo[6], //Longitude
+                            campo[7], //Rodovia
+                            campo[8], //KM
+                            campo[9], //Metros
+                            campo[10], //Trecho
+                            campo[11], //Lote
+                            campo[22], //Area
+                            campo[23], //Camada 1
+                            campo[24], //Camada 2
+                            campo[25], //Camada 3
+                            campo[26],  //Camada 4
+                            campo[27],  //Espessura 1
+                            campo[28],  //Espessura 2
+                            campo[29],  //Espessura 3
+                            campo[30],  //Espessura 4
+                            campo[31],  //Status
+                            campo[32],  //Observação
+                            nomeFoto,
+                            campo[33],  //Entrega
+                            campo[34],   //regional
+                            campo[35]   //data cadastro
+                                        //grid[12] até grid[21] são nome das fotos 
+                            );
+
+                        string cmdAtualiza = String.Format("UPDATE sondagemdado SET data_cadastro='" + dataNomeFoto + "' WHERE id=" + campo[0]);
+
+                        DbConnection.editarDatabase(cmdAtualiza, DbConnection);
+
+                        Array.Clear(campo, 0, campo.Length);
+                    }
+                    reader.Close();
+                    conn.Close();
+                }
+                ((IDisposable)DbConnection).Dispose();
+            }
+            catch (Exception ex)
+            {
+                //MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void kMToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                OpenFileDialog ofd = new OpenFileDialog();
+                DAL DbConnection = new DAL(localhost);
+                ofd.Multiselect = true;
+                ofd.Filter = " CSV |*.csv";
+                Utilidade planilhaMain = new Utilidade();
+                string km;
+                string metro;
+
+                if (ofd.ShowDialog() == DialogResult.OK)
+                {
+                    foreach (string file in ofd.FileNames)
+                    {
+                        StreamReader csv = new StreamReader(file);
+                        while ((linha = csv.ReadLine()) != null)
+                        {
+                            campo = linha.Split(';');
+                            km = campo[3].Split('.')[0];
+                            metro = campo[3].Split('.')[1];
+                            //*-------------------  UPDATE DADOS NO BANCO  ------------------------------*
+                            DbConnection.updateKmBD(campo, km, metro, DbConnection);
+                        }
+
+                        if (!Directory.Exists(Path.GetDirectoryName(Path.GetDirectoryName(file) + "\\Concluido\\")))
+                        {
+                            System.IO.Directory.CreateDirectory(Path.GetDirectoryName(file) + "\\Concluido\\");
+                        }
+                        csv.Close();
+                        System.IO.File.Copy(file, (Path.GetDirectoryName(file) + "\\Concluido\\" + Path.GetFileName(file)));
+                        System.IO.File.Delete(file);
+                    }
+                }
+                atualizaGrid();
+                ((IDisposable)DbConnection).Dispose();
+                ((IDisposable)ofd).Dispose();
+            }
+            catch (Exception ex)
+            {
+                //MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void relátorioPDFToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                FolderBrowserDialog fbdRelatorioWord = new FolderBrowserDialog();
+                string pathRelatorio;
+
+                if (fbdRelatorioWord.ShowDialog() == DialogResult.OK)
+                {
+                    pathRelatorio = fbdRelatorioWord.SelectedPath + "\\";
+                    RelatorioWord relatorioWord = new RelatorioWord(pathRelatorio, caminhoFotoSalva);
+
+                    /*Inicia o contador*/
+                    if (load.firstTime == true)
+                    {
+                        load.maxCount_load(dgv_sondagem.Rows.Count - 1);
+                        load.Show();
+                    }
+
+                    for (int i = 0; i < dgv_sondagem.Rows.Count - 1; i++)
+                    {
+                        load.loading();
+                        relatorioWord.geraRelatorioWord(
+                            caminhoWordSalva,
+                            dgv_sondagem.Rows[i].Cells[8].Value.ToString(),     //Lote
+                            dgv_sondagem.Rows[i].Cells[1].Value.ToString(),     //Poço
+                            dgv_sondagem.Rows[i].Cells[4].Value.ToString(),     //Rodovia
+                            dgv_sondagem.Rows[i].Cells[7].Value.ToString(),     //Trecho
+                            dgv_sondagem.Rows[i].Cells[3].Value.ToString(),     //Longitude
+                            dgv_sondagem.Rows[i].Cells[2].Value.ToString(),     //Latitude
+                            dgv_sondagem.Rows[i].Cells[20].Value.ToString(),    //Nome Foto
+                            dgv_sondagem.Rows[i].Cells[22].Value.ToString(),    //regional
+                            dgv_sondagem.Rows[i].Cells[10].Value.ToString(),    //Camada 01
+                            dgv_sondagem.Rows[i].Cells[11].Value.ToString(),    //Camada 02
+                            dgv_sondagem.Rows[i].Cells[12].Value.ToString(),    //Camada 03
+                            dgv_sondagem.Rows[i].Cells[13].Value.ToString(),    //Camada 04
+                            dgv_sondagem.Rows[i].Cells[14].Value.ToString(),    //Espessura 01
+                            dgv_sondagem.Rows[i].Cells[15].Value.ToString(),    //Espessura 02
+                            dgv_sondagem.Rows[i].Cells[16].Value.ToString(),    //Espessura 03
+                            dgv_sondagem.Rows[i].Cells[17].Value.ToString(),     //Espessura 04
+                            dgv_sondagem.Rows[i].Cells[5].Value.ToString() + "," + dgv_sondagem.Rows[i].Cells[6].Value.ToString(), //KM,METROS
+                            "pdf",
+                            dgv_sondagem.Rows[i].Cells[23].Value.ToString() //Data Cadastro DiaMêsAno
+                            );
+                    }
+                    load.btn_ok.Enabled = true;
+                }
+            }
+            catch (Exception ex)
+            {
+                //MessageBox.Show(ex.Message);
+            }
+        }
     }
+
 }

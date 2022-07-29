@@ -17,8 +17,12 @@ namespace ProgFormularioEngenharia2.sondagemClasses
             this.pathSavePhoto = pathSavePhoto;
         }
 
-        public void geraRelatorioWord(string caminhoWordSalva, string lote, string poco, string rodovia, string trecho, string longitude, string latitude, string nomeFoto, string regional, string camada1, string camada2, string camada3, string camada4, string espessura1, string espessura2, string espessura3, string espessura4, string Km)
+        public void geraRelatorioWord(string caminhoWordSalva, string lote, string poco, string rodovia, string trecho, string longitude, string latitude, string nomeFoto, string regional, string camada1, string camada2, string camada3, string camada4, string espessura1, string espessura2, string espessura3, string espessura4, string Km, string tipoArquivo, string diamesano)
         {
+            string dia;
+            string mes;
+            string ano;
+            string dataCadastro ="";
             object missing = System.Reflection.Missing.Value;
             var wordApp = new Microsoft.Office.Interop.Word.Application();
             wordApp.Visible = false;
@@ -34,6 +38,14 @@ namespace ProgFormularioEngenharia2.sondagemClasses
                 wordDoc = wordApp.Documents.Open(caminhoWordSalva + "PRODUTO_1.docx", ReadOnly: false);
             }
 
+            if(diamesano.Length == 8)
+            {
+                dia = diamesano.Substring(0, 2);
+                mes = diamesano.Substring(2, 2);
+                ano = diamesano.Substring(4, 4);
+                dataCadastro = dia + "/" + mes + "/" + ano;
+            }
+            
             ImportarFotos img = new ImportarFotos(pathSavePhoto);
             List<string> nomeFotos = img.viewFoto(nomeFoto);
            
@@ -172,6 +184,7 @@ namespace ProgFormularioEngenharia2.sondagemClasses
                     temprange.Select();
                 }
             }
+            
 
             Microsoft.Office.Interop.Word.Find fnd = wordApp.ActiveWindow.Selection.Find;
 
@@ -199,7 +212,7 @@ namespace ProgFormularioEngenharia2.sondagemClasses
             fnd.Text = "Imagem8";
             fnd.Replacement.Text = "";
             fnd.Execute(Replace: Microsoft.Office.Interop.Word.WdReplace.wdReplaceAll);
-
+            
 
             fnd.Text = "cel_Lote";
             fnd.Replacement.Text = lote;
@@ -229,7 +242,11 @@ namespace ProgFormularioEngenharia2.sondagemClasses
             fnd.Replacement.Text = latitude;
             fnd.Execute(Replace: Microsoft.Office.Interop.Word.WdReplace.wdReplaceAll);
 
-            if(regional != "null")
+            fnd.Text = "cel_Cadastro";
+            fnd.Replacement.Text = dataCadastro;
+            fnd.Execute(Replace: Microsoft.Office.Interop.Word.WdReplace.wdReplaceAll);
+
+            if (regional != "null")
             {
                 fnd.Text = "cel_Regional";
                 fnd.Replacement.Text = regional;
@@ -268,10 +285,25 @@ namespace ProgFormularioEngenharia2.sondagemClasses
             fnd.Replacement.Text = espessura4;
             fnd.Execute(Replace: Microsoft.Office.Interop.Word.WdReplace.wdReplaceAll);
 
-            //Local que vai ser salvo e a extensão
-            wordDoc.SaveAs(pathRelatorio + poco + ".docx");
-            wordApp.DisplayAlerts = Microsoft.Office.Interop.Word.WdAlertLevel.wdAlertsNone;
-            wordApp.Quit();
+            object oMissing = System.Reflection.Missing.Value;
+
+            if (tipoArquivo == "word")
+            {
+                //Local que vai ser salvo e a extensão
+                wordDoc.SaveAs(pathRelatorio + poco + ".docx");
+                wordApp.DisplayAlerts = Microsoft.Office.Interop.Word.WdAlertLevel.wdAlertsNone;
+                wordApp.Quit();
+            }
+            else if(tipoArquivo == "pdf")
+            {
+                //Local que vai ser salvo e a extensão
+                //wordDoc.SaveAs(pathRelatorio + poco + ".pdf");
+                wordDoc.ExportAsFixedFormat(pathRelatorio + poco + ".pdf", WdExportFormat.wdExportFormatPDF, false, WdExportOptimizeFor.wdExportOptimizeForOnScreen,
+                    WdExportRange.wdExportAllDocument, 1, 1, WdExportItem.wdExportDocumentContent, true, true,
+                    WdExportCreateBookmarks.wdExportCreateHeadingBookmarks, true, true, false, ref oMissing);
+                wordApp.DisplayAlerts = Microsoft.Office.Interop.Word.WdAlertLevel.wdAlertsNone;
+                wordApp.Quit(WdSaveOptions.wdDoNotSaveChanges);
+            }
             
         }
 
